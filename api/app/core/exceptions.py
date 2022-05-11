@@ -1,0 +1,2 @@
+class ProviderValueError(Exception):
+    pass

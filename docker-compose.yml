@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  api:
+    build:
+      context: api
+      dockerfile: Dockerfile
+    command: python app/main.py
+    tty: true
+    ports: 
+      - 8888:8888
+    volumes:
+      - ./api:/app/:cached
+      - ./.docker/.ipython:/root/.ipython:cached
+    environment:
+      PYTHONPATH: .
