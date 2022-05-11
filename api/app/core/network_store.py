@@ -40,7 +40,7 @@ NETWORKS = [
     {
         "id": "GNOSIS",
         "name": "Gnosis",
-        "symbol": "XDAI",
+        "symbol": "xDAI",
         "config_options": {
             "url": "https://rpc.gnosischain.com",
             "provider_type": "HTTPProvider"
@@ -79,6 +79,7 @@ NETWORKS = [
     {
         "id": "ARBITIUM.TESTNET",
         "name": "Arbitium testnet",
+        "symbol": "ETH",
         "config_options": {
             "url": "https://rinkeby.arbitrum.io/rpc",
             "provider_type": "HTTPProvider"
