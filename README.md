@@ -20,7 +20,9 @@ $ docker-compose up -d
 ```
 
 ### Python 3 environment
+From the `api` directory
 ```console
+$  pip install -r requirements.txt --no-cache-dir 
 $  uvicorn main:app --reload
 ```
 
