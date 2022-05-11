@@ -28,3 +28,8 @@ $  uvicorn main:app --reload
 
 The browser api docs, in swagger format, can be found at http://localhost:8888/docs
 From the docs you can test the api calls, they also display the curl commands that be used to test the api from the cli
+
+## nginx configuration option
+
+If required a nginx proxy can be configured in front of the api when using the docker-compose method.  
+To do this uncomment the relevant lines in the docker-compose.yml file
